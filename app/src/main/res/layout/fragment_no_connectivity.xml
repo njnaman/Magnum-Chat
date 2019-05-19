@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".no_connectivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_connection_label"
+        android:layout_above="@+id/retry"
+        android:layout_marginBottom="50dp"
+        android:layout_centerInParent="true"
+        android:text="NO CONNECTION"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginStart="150dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/retry"
+        android:background="@drawable/middle_bubble"
+        android:layout_marginStart="150dp"
+        android:text="RETRY"/>
+
+</RelativeLayout>
