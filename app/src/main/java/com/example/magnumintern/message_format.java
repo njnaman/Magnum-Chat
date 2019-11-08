@@ -24,4 +24,6 @@ public class message_format {
     public void setMsg_of(int msg_of) {
         this.msg_of = msg_of;
     }
+    public void a(){
+    }
 }
