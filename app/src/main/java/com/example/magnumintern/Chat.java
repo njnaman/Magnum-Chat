@@ -123,9 +123,8 @@ public class Chat extends Fragment {
         messages.add(new message_format("me too! HaHa", 3));
         messages.add(new message_format("See you in the morning", 3));
         messages.add(new message_format("you can bet on it", 1));
-        messages.add(new message_format("By the way do you know Shaw", 1));
+        messages.add(new message_format("By the way do you know Shaw", 1))
         messages.add(new message_format("shaw", 4));
-        messages.add(new message_format("Yess, that football player", 3));
         messages.add(new message_format("yeo , he is my favourite", 1));
         messages.add(new message_format("but i like axle more", 3));
         messages.add(new message_format("axle", 5));
